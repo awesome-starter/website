@@ -1,0 +1,10 @@
+{
+  "name": "website",
+  "version": "0.0.0",
+  "description": "a",
+  "main": "index.js",
+  "repository": "https://github.com/awesome-starter/website",
+  "author": "chengpeiquan",
+  "license": "MIT",
+  "private": true
+}

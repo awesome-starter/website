@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Preset</title>
+  <style>
+    .container {
+      width: 100%;
+      max-width: 1000px;
+      margin: 20px auto;
+    }
+    a {
+      color: #1f6feb;
+    }
+    p {
+      text-align: justify;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    pre {
+      font-size: 14px;
+      color: #fff;
+      background-color: #333;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Create Preset</h1>
+
+    <p>Provides the ability to quickly create preset projects.</p>
+
+    <p>
+      <a
+        href="https://github.com/awesome-starter/create-preset"
+        target="_blank"
+      >
+        <span>Star on GitHub</span>
+      </a>
+    </p>
+
+    <h2>Compatibility Note:</h2>
+
+    <p>
+      Some preset project requires Node.js version >=12.2.0 (e.g. Vite). However, some templates require a higher Node.js version to work, please upgrade if your package manager warns about it.</p>
+
+    <img
+      src="https://cdn.jsdelivr.net/gh/chengpeiquan/assets-storage/img/2021/11/20211229183022.gif"
+      alt="Create Preset"
+    >
+
+    <h2>Usage</h2>
+
+    <p>You can simply create it directly through the package management command:</p>
+
+    <pre>      npm init preset@latest init
+      # OR
+      yarn create preset init</pre>
+
+    <p>Then follow the prompts!</p>
+
+    <p>This usage allows you to use the latest version of scaffolding every time.</p>
+
+    <h2>Global Usage</h2>
+
+    <p>You can also install globally for easier usage, Please install it globally first:</p>
+
+    <pre>      npm install -g create-preset
+      # OR
+      yarn global add create-preset</pre>
+
+    <p>You can use this command to check whether the installation is successful:</p>
+
+    <pre>      preset -v</pre>
+
+    <p>Then you can use the following command to create your preset project:</p>
+
+    <pre>      preset init</pre>
+
+    <p>If you want to update the version later, you can use the following command to operate:</p>
+
+    <pre>      npm update -g create-preset
+      # OR
+      yarn global upgrade --latest create-preset</pre>
+
+    <p>Or reinstall it globally, haha!</p>
+  </div>
+</body>
+</html>
