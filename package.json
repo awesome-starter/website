@@ -1,10 +1,20 @@
 {
-  "name": "website",
+  "name": "awesome-starter-website",
   "version": "0.0.0",
-  "description": "a",
+  "description": "The official website for create-preset.",
+  "homepage": "https://preset.js.org/",
   "main": "index.js",
   "repository": "https://github.com/awesome-starter/website",
   "author": "chengpeiquan",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vite-plugin-banner": "^0.2.0",
+    "vitepress": "^0.21.4"
+  }
 }

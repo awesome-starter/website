@@ -1,0 +1,35 @@
+/* https://windicss.org/utilities/general/colors.html */
+:root {
+  --c-bg: #fafafa;
+  --c-bg-dark: #181818;
+  --c-brand: #f97316;
+  --c-brand-light: #fb923c;
+  --c-desc: #a1a1aa;
+}
+
+/* home */
+.home-hero {
+  background-color: var(--c-bg-dark);
+  padding: 1.5rem 0 !important;
+  margin: 0 !important;
+}
+.home-hero .title {
+  color: var(--c-white-dark);
+  margin: 0 !important;
+}
+.home-hero .tagline {
+  color: var(--c-desc) !important;
+}
+
+@media (min-width: 720px) {
+  .home-hero {
+    padding: 4rem 0 4.25rem !important;
+  }
+}
+
+@media (min-width: 420px) {
+  .home-hero {
+    padding: 8rem 0 !important;
+    margin-bottom: 4rem !important;
+  }
+}
