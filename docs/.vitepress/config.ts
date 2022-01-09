@@ -6,7 +6,8 @@ import pkg from '../../package.json'
 const outDir = '../dist'
 
 export default defineConfig({
-  base: 'https://cdn.jsdelivr.net/gh/awesome-starter/website@gh-pages/',
+  // base: 'https://cdn.jsdelivr.net/gh/awesome-starter/website@gh-pages/',
+  base: '/',
   lang: 'en-US',
   outDir,
   title: 'Awesome Starter',
