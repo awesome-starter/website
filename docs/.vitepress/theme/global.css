@@ -33,3 +33,9 @@
     margin-bottom: 4rem !important;
   }
 }
+
+.home-content img {
+  display: block;
+  border-radius: 6px;
+  margin: 0 auto;
+}
