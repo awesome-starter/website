@@ -103,5 +103,6 @@ node|node-basic|A basic Node.js project template.
 node|node-server-express|A express template for Node.js project.
 node|node-program-pkg|A program template for Node.js project, use pkg to packaged.
 electron|electron-vue3-ts|An electron template with Vue 3.0 and TypeScript for client project.
+rollup|rollup-library-ts|A template for JS Library with TypeScript, base on Rollup.
 
 More templates coming soon.
