@@ -1,32 +1,32 @@
 ---
 home: true
-actionText: Get Started
-actionLink: /guide.html
+actionText: 快速上手
+actionLink: /zh/guide.html
 footer: MIT Licensed | Copyright © 2022-present Peiquan Cheng
 ---
 
-## Simply Usage
+## 简单体验
 
-With NPM:
+使用 NPM:
 
 ```bash
 npm init preset@latest init
 ```
 
-With Yarn:
+使用 Yarn:
 
 ```bash
 yarn create preset init
 ```
 
-With PNPM:
+使用 PNPM:
 
 ```bash
 pnpm create preset init
 ```
 
-Then follow the prompts!
+然后按照提示进行操作！
 
-## Features Preview
+## 功能预览
 
 ![create-preset](https://cdn.jsdelivr.net/gh/chengpeiquan/assets-storage/img/2021/11/20220110155037.gif)

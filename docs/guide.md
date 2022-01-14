@@ -18,13 +18,45 @@ Some preset project requires [Node.js](https://nodejs.org/en/) version >=12.2.0 
 
 ## Getting Started
 
+We provide two ways to use this CLI.
+
 :::tip
-It is still in the early stage of development, and the version update will be more frequent, please try to use [Usage](#usage) instead of [Global Usage](#global-usage)
+Since `v0.6.0`, the documentation will explain the operation instructions in the form of global installation by default. Of course, you can still quickly experience it through the package manager commands.
 :::
 
 ### Usage
 
-You can simply create it directly through the package management command:
+It is recommended to install globally for easier usage, Please install it globally first:
+
+With NPM:
+
+```bash
+npm install -g create-preset
+```
+
+With Yarn:
+
+```bash
+yarn global add create-preset
+```
+
+With PNPM:
+
+```bash
+pnpm add -g create-preset
+```
+
+You can use the following command to check whether the installation was successful. If successful, you will get a version number.
+
+```bash
+preset -v
+```
+
+You can refer to [Upgrade](#upgrade) to learn how to upgrade in the future.
+
+### Simply Usage
+
+You can also simply experience it through the command of the package manager, and directly create the template you need by create preset.
 
 With NPM:
 
@@ -46,63 +78,14 @@ pnpm create preset init
 
 Then follow the prompts!
 
-This usage allows you to use the latest version of scaffolding every time.
+This usage allows you to use the latest version of the Preset CLI every time.
 
-### Global Usage
+## More features
 
-You can also install globally for easier usage, Please install it globally first:
+### Full Documentation
 
-```bash
-npm install -g create-preset
+Please visit [Documentation](/docs.html) to view the operation documentation.
 
-# OR
-yarn global add create-preset
+### Template list
 
-# OR
-pnpm add -g create-preset
-```
-
-You can use this command to check whether the installation is successful:
-
-```bash
-preset -v
-```
-
-Then you can use the following command to create your preset project:
-
-```bash
-preset init
-```
-
-If you want to update the version later, you can use the following command to operate:
-
-```bash
-npm update -g create-preset
-
-# OR
-yarn global upgrade --latest create-preset
-
-# OR
-pnpm update -g --latest create-preset
-```
-
-Or reinstall it globally, haha!
-
-## Template Starters
-
-With [create-preset](https://github.com/awesome-starter/create-preset) scaffolding, you can currently create the following officially maintained template starters.
-
-### Official templates
-
-The following templates are officially provided and maintained by Awesome Starter.
-
-Tech Stack|Name|Description
-:-:|:-:|:--
-vue|vue3-ts-vite|A template for Vue 3.0 with TypeScript, base on Vite.
-node|node-basic|A basic Node.js project template.
-node|node-server-express|A express template for Node.js project.
-node|node-program-pkg|A program template for Node.js project, use pkg to packaged.
-electron|electron-vue3-ts|An electron template with Vue 3.0 and TypeScript for client project.
-rollup|rollup-library-ts|A template for JS Library with TypeScript, base on Rollup.
-
-More templates coming soon.
+There are already some available templates, and the official website will open up a list of templates to provide inquiries later, so stay tuned!

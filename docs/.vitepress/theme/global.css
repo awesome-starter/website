@@ -5,6 +5,30 @@
   --c-brand: #f97316;
   --c-brand-light: #fb923c;
   --c-desc: #a1a1aa;
+  --c-scrollbar: var(--c-brand-light);
+  --c-scrollbar-hover: var(--c-brand);
+}
+
+/* scrollbar */
+* {
+  scrollbar-color: var(--c-scrollbar) var(--c-bg);
+}
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar:horizontal {
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--c-bg);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--c-scrollbar);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--c-scrollbar-hover);
 }
 
 /* home */
