@@ -20,18 +20,58 @@ export default defineConfig({
       },
     ]
   ],
+  locales: {
+    '/': {
+      lang: 'en-US',
+      title: 'Awesome Starter',
+      description: 'A curated list of awesome things related to starter templates.',
+    },
+    '/zh/': {
+      lang: 'zh-CN',
+      title: 'Awesome Starter',
+      description: '一个与项目模板相关的精选列表。',
+    }
+  },
   themeConfig: {
     repo: 'awesome-starter/create-preset',
-    nav: [
-      {
-        text: 'Guide',
-        link: '/guide'
+    locales: {
+      '/': {
+        selectText: 'Languages',
+        label: 'English',
+        nav: [
+          {
+            text: 'Guide',
+            link: '/guide',
+          },
+          {
+            text: 'Docs',
+            link: '/docs',
+          },
+          {
+            text: 'Release Notes',
+            link: 'https://github.com/awesome-starter/create-preset/releases',
+          },
+        ],
       },
-      {
-        text: 'Release Notes',
-        link: 'https://github.com/awesome-starter/create-preset/releases'
-      },
-    ],
+      '/zh/': {
+        selectText: '选择语言',
+        label: '简体中文',
+        nav: [
+          {
+            text: '指南',
+            link: '/zh/guide',
+          },
+          {
+            text: '文档',
+            link: '/zh/docs',
+          },
+          {
+            text: '更新记录',
+            link: 'https://github.com/awesome-starter/create-preset/releases',
+          },
+        ],
+      }
+    },
   },
   vite: {
     plugins: [
