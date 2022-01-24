@@ -80,7 +80,7 @@ Then follow the prompts!
 
 This usage allows you to use the latest version of the Preset CLI every time.
 
-## More features
+## More Features
 
 ### Full Documentation
 
