@@ -40,5 +40,11 @@
     "name": "vite-reactts-eslint-prettier",
     "desc": "vite-react-typescript with eslint and prettier predefined settings",
     "repo": "https://github.com/TheSwordBreaker/vite-reactts-eslint-prettier#main"
+  },
+  {
+    "tech": "react",
+    "name": "vite-react-ts",
+    "desc": "Every feature that is present in CRA but powered by Vite",
+    "repo": "https://github.com/uchihamalolan/vite-react-ts#main"
   }
 ]
