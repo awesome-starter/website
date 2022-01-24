@@ -46,5 +46,11 @@
     "name": "vite-react-ts",
     "desc": "Every feature that is present in CRA but powered by Vite",
     "repo": "https://github.com/uchihamalolan/vite-react-ts#main"
+  },
+  {
+    "tech": "react",
+    "name": "vite-react-ts-tailwind",
+    "desc": "Starter using Vite + React + TypeScript + Tailwind with Firebase.",
+    "repo": "https://github.com/TeXmeijin/vite-react-ts-tailwind-firebase-starter#main"
   }
 ]
