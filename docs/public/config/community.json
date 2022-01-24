@@ -6,7 +6,7 @@
     "repo": "https://github.com/antfu/vitesse#main"
   },
   {
-    "tech": "vite",
+    "tech": "vue",
     "name": "vitesse-nuxt3",
     "desc": "Vitesse for Nuxt 3",
     "repo": "https://github.com/antfu/vitesse-nuxt3#main"
@@ -22,5 +22,23 @@
     "name": "vitesse-webext",
     "desc": "WebExtension Vite Starter Template",
     "repo": "https://github.com/antfu/vitesse-webext#main"
+  },
+  {
+    "tech": "vue",
+    "name": "vite-ts-tailwind-starter",
+    "desc": "Opinionated Vite + Vue 3 + TypeScript + Tailwind CSS starter template w/ tests and CI",
+    "repo": "https://github.com/Uninen/vite-ts-tailwind-starter#main"
+  },
+  {
+    "tech": "vue",
+    "name": "vitesse-ssr",
+    "desc": "Opinionated Vue + Vite Starter Template with SSR in Node.js",
+    "repo": "https://github.com/frandiox/vitesse-ssr-template"
+  },
+  {
+    "tech": "react",
+    "name": "vite-reactts-eslint-prettier",
+    "desc": "vite-react-typescript with eslint and prettier predefined settings",
+    "repo": "https://github.com/TheSwordBreaker/vite-reactts-eslint-prettier#main"
   }
 ]
