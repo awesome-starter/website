@@ -40,5 +40,23 @@
     "name": "vite-reactts-eslint-prettier",
     "desc": "vite-react-typescript with eslint and prettier predefined settings",
     "repo": "https://github.com/TheSwordBreaker/vite-reactts-eslint-prettier#main"
+  },
+  {
+    "tech": "react",
+    "name": "vite-react-ts",
+    "desc": "Every feature that is present in CRA but powered by Vite",
+    "repo": "https://github.com/uchihamalolan/vite-react-ts#main"
+  },
+  {
+    "tech": "react",
+    "name": "vite-react-ts-tailwind",
+    "desc": "Starter using Vite + React + TypeScript + Tailwind with Firebase.",
+    "repo": "https://github.com/TeXmeijin/vite-react-ts-tailwind-firebase-starter#main"
+  },
+  {
+    "tech": "electron",
+    "name": "vite-react-electron",
+    "desc": "Super-fast Vite + React + Antd + Electron boilerplate.",
+    "repo": "https://github.com/caoxiemeihao/vite-react-electron#main"
   }
 ]
