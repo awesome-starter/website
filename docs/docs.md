@@ -1,4 +1,4 @@
-## Create preset
+## Create Preset
 
 Creating templates is the core feature of Preset CLI, which provides a variety of project templates for you to use.
 
@@ -210,8 +210,63 @@ This command is very useful if you forget where the configuration file is saved!
 If you want to cancel the settings of the local configuration, you can cancel the settings with the `remove` subcommand of `config`.
 
 ```bash
-preset remove
+preset config remove
 ```
+
+### Manage local tech stacks
+
+The `config` command also provides an option `--tech` (abbreviated `-t`), which is used to manage the local technology stack. When you add the `--tech` option, it will enter the technology stack management mode ( instead of template configuration).
+
+:::tip
+The operation commands of the local configuration and the local technology stack are the same, the only difference is that the technology stack needs to be added with the `--tech` option.
+:::
+
+For example, if you want to set your local tech stack list, just add the `--tech` option:
+
+```
+preset config set F:\config\local-tech.json --tech
+```
+
+The template format of the local technology stack is:
+
+```json
+[
+  {
+    "name": "vue",
+    "color": "#42b983"
+  }
+]
+```
+
+Please refer to the section [Add technology stack](#add-technology-stack) for the description of JSON fields.
+
+## Proxy
+
+For the slow download problem in some areas, we provide the mirror proxy to speed up the download. You can use the `proxy` (alias `p`) command to turn on/off of the proxy . This command needs to be used in conjunction with subcommands.
+
+:::tip
+At present, the proxy service is only for GitHub's HTTPS download source, and the service scope may only be suitable for users in China (because the [CNPM Mirror](https://github.com.cnpmjs.org/) is used), if you can't download  after turn on the proxy, please turn off it.
+:::
+
+### Turn On
+
+The proxy service can be turned on with the `on` subcommand of `proxy`.
+
+```bash
+preset proxy on
+```
+
+Once enabled, CNPM's mirror service will be used to download starter templates.
+
+### Turn Off
+
+The proxy service can be turned off with the `off` subcommand of `proxy`.
+
+```bash
+preset proxy off
+```
+
+After the proxy is turned off, it will be downloaded directly from the GitHub URL, and will no longer be mirrored through CNPM.
 
 ## Upgrade
 
