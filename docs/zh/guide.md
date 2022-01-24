@@ -13,7 +13,7 @@ Awesome Starter 是一个关于项目启动模板的精选列表，通过 [Creat
 Awesome Starter 的 CLI 脚手架，提供快速创建预设项目的能力。
 
 :::tip 提示
-除了创建官方和开源社区提供的优秀模板，还可以作为您个人常用项目配置的一个本地管理工具，点击 [管理本地配置](#%E7%AE%A1%E7%90%86%E6%9C%AC%E5%9C%B0%E9%85%8D%E7%BD%AE) 了解更多。
+除了创建官方和开源社区提供的优秀模板，还可以作为您个人常用项目配置的一个本地管理工具，点击 [管理本地配置](docs.md#%E7%AE%A1%E7%90%86%E6%9C%AC%E5%9C%B0%E9%85%8D%E7%BD%AE) 了解更多。
 :::
 
 ![create-preset](https://cdn.jsdelivr.net/gh/chengpeiquan/assets-storage/img/2021/11/20220110155037.gif)
