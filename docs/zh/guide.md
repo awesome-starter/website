@@ -4,7 +4,9 @@
 
 ### 什么是 Awesome Starter?
 
-Awesome Starter 是一个关于项目启动模板的精选列表。
+Awesome Starter 是一个关于项目启动模板的精选列表，通过 [Create Preset CLI](#什么是-create-preset) 创建一些有趣实用的项目启动模板，它也可以帮助你管理你的常用项目配置。
+
+很长时间以来都缺少一个方便管理自己公开以及私有项目配置的工具，所以有了 Create Preset 的诞生，如果你觉得它有用，[欢迎给它一个 Star](https://github.com/awesome-starter/create-preset) ！
 
 ### 什么是 Create Preset?
 

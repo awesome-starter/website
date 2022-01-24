@@ -4,7 +4,9 @@ Welcome to Awesome Starter!
 
 ### What is Awesome Starter?
 
-Awesome Starter is a curated list of awesome things related to starter templates.
+Awesome Starter is a curated list of awesome things related to starter templates.  Create some interesting and practical project startup templates through [Create Preset CLI](#what-is-create-preset), and it can also help you manage your favorite project configurations.
+
+For a long time, there has been a lack of a tool to manage the configuration of your own public and private projects, so with the birth of Create Preset, if you find it useful, [Welcome to give it a Star](https://github.com/awesome-starter/create-preset) !
 
 ### What is Create Preset?
 
