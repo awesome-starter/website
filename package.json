@@ -11,9 +11,13 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "serve": "vitepress serve docs"
+    "serve": "vitepress serve docs",
+    "backup": "git add . && git commit -m \"chore: save the coding progress\" && git push"
   },
   "devDependencies": {
+    "@types/node": "^17.0.12",
+    "@vueuse/core": "^7.5.5",
+    "vite": "^2.7.13",
     "vite-plugin-banner": "^0.2.0",
     "vitepress": "^0.21.4"
   }

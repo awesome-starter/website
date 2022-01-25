@@ -1,13 +1,19 @@
+import path from 'path'
 import { defineConfig } from 'vitepress'
+import { normalizePath } from 'vite'
 import banner from 'vite-plugin-banner'
-import pkg from '../../package.json'
+import pkg from '../package.json'
 
 // Specify the output directory for packaging
 const outDir = '../dist'
 
+const resolve = (root: string, file: string) =>
+  normalizePath(path.resolve(root, `.vitepress`, file))
+
 export default defineConfig({
   base: '/',
   lang: 'en-US',
+  srcDir: 'src',
   outDir,
   title: 'Awesome Starter',
   description: 'A curated list of awesome things related to starter templates.',
