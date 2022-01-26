@@ -18,7 +18,7 @@ preset init
 
 Preset CLI 支持在不更新版本的情况下就获取到最新的技术栈列表和启动模板列表，因为它们是通过配置文件来获取的。
 
-配置文件托管在官网项目的 [config](https://github.com/awesome-starter/website/tree/main/docs/public/config) 文件夹下。
+配置文件托管在官网项目的 [config](https://github.com/awesome-starter/website/tree/main/src/public/config) 文件夹下。
 
 所以执行了 `init` 命令之后，会发起网络请求，获取配置文件。
 
@@ -45,7 +45,7 @@ preset init
 
 ### 增加技术栈
 
-目前技术栈需要通过官网的 [tech.json](https://github.com/awesome-starter/website/blob/main/docs/public/config/tech.json) 文件来维护。
+目前技术栈需要通过官网的 [tech.json](https://github.com/awesome-starter/website/blob/main/src/public/config/tech.json) 文件来维护。
 
 如果你有需要添加缺少的技术栈，请按照以下格式添加到文件数组里。
 
@@ -75,8 +75,8 @@ color|Color Hex|为了有足够的辨识度和关联性，请从技术栈的 LOG
 
 来源|说明|查看
 :-:|:--|:-:
-官方维护|由 Awesome Starter 官方团队维护|[official.json](https://github.com/awesome-starter/website/blob/main/docs/public/config/official.json)
-开源社区|从 GitHub 等开源社区发现的优秀模板，可通过 PR 合并|[community.json](https://github.com/awesome-starter/website/blob/main/docs/public/config/community.json)
+官方维护|由 Awesome Starter 官方团队维护|[official.json](https://github.com/awesome-starter/website/blob/main/src/public/config/official.json)
+开源社区|从 GitHub 等开源社区发现的优秀模板，可通过 PR 合并|[community.json](https://github.com/awesome-starter/website/blob/main/src/public/config/community.json)
 本地配置|您存储在计算机本地的一个配置文件，作为您的私有配置使用|[配置](#配置)
 
 ### 排序的优先级
@@ -102,13 +102,13 @@ JSON 字段说明：
 
 字段|类型|说明
 :-:|:-:|:--
-tech|string|技术栈，请在 [这里](https://github.com/awesome-starter/website/blob/main/docs/public/config/tech.json) 查询合法的技术栈名称
+tech|string|技术栈，请在 [这里](https://github.com/awesome-starter/website/blob/main/src/public/config/tech.json) 查询合法的技术栈名称
 name|string|模板的名称，请省略 `template` 或者 `starter` 这样的词，只写基本名称
 desc|string|模板的描述，一句话了解这个模板的特色
 repo|string|模板 URL ，支持 `https` 和 `git@` 开头地址，详见下方的 [模板 URL 说明](#模板-url-说明)
 
 :::tip 提示
-由于 Awesome Starter 的宗旨是提供优秀的项目模板，所以仅接受 Starter Template 类的仓库收集，如果你打算向 [community.json](https://github.com/awesome-starter/website/blob/main/docs/public/config/community.json) 发起 PR 贡献，请留意这一点。
+由于 Awesome Starter 的宗旨是提供优秀的项目模板，所以仅接受 Starter Template 类的仓库收集，如果你打算向 [community.json](https://github.com/awesome-starter/website/blob/main/src/public/config/community.json) 发起 PR 贡献，请留意这一点。
 :::
 
 ### 模板 URL 说明

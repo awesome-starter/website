@@ -18,7 +18,7 @@ preset init
 
 Preset CLI supports getting the latest technology stack list and starter template list without updating the version, because they are obtained through configuration files.
 
-The configuration files are hosted in [config](https://github.com/awesome-starter/website/tree/main/docs/public/config) folder.
+The configuration files are hosted in [config](https://github.com/awesome-starter/website/tree/main/src/public/config) folder.
 
 Therefore, after executing the `init` command, a network request will be initiated to fetch the configuration file.
 
@@ -45,7 +45,7 @@ preset init
 
 ### Add technology stack
 
-At present, the technology stack needs to be maintained through the [tech.json](https://github.com/awesome-starter/website/blob/main/docs/public/config/tech.json) file on the official website.
+At present, the technology stack needs to be maintained through the [tech.json](https://github.com/awesome-starter/website/blob/main/src/public/config/tech.json) file on the official website.
 
 If you need to add the missing stack, please add it to the file array in the following format.
 
@@ -75,8 +75,8 @@ Templates are classified into three sources: official maintenance, open source c
 
 Source|Description|View
 :-:|:--|:-:
-Official Maintenance|Maintained by the official Awesome Starter team.|[official.json](https://github.com/awesome-starter/website/blob/main/docs/public/config/official.json)
-Open Source Community|Excellent templates found from open source communities like GitHub, merged via PR.|[community.json](https://github.com/awesome-starter/website/blob/main/docs/public/config/community.json)
+Official Maintenance|Maintained by the official Awesome Starter team.|[official.json](https://github.com/awesome-starter/website/blob/main/src/public/config/official.json)
+Open Source Community|Excellent templates found from open source communities like GitHub, merged via PR.|[community.json](https://github.com/awesome-starter/website/blob/main/src/public/config/community.json)
 Local Configuration|A config file that you store locally on your computer to use as your private config.|[Configure](#configure)
 
 ### Sort priority
@@ -102,13 +102,13 @@ JSON field description:
 
 Field|Type|Description
 :-:|:-:|:--
-tech|string|Technology stack, please check [here](https://github.com/awesome-starter/website/blob/main/docs/public/config/tech.json) for legal tech stack names.
+tech|string|Technology stack, please check [here](https://github.com/awesome-starter/website/blob/main/src/public/config/tech.json) for legal tech stack names.
 name|string|Name of the template, please omit words like `template` or `starter`, just write the base name.
 desc|string|Description of the template, one sentence to understand the characteristics of this template.
 repo|string|Template repository URL, supports `https` and `git@` starting addresses, see the following [Template URL description](#template-url-description)
 
 :::tip
-Since the purpose of Awesome Starter is to provide excellent project templates, it only accepts repository collections of the Starter Template class. If you plan to make PR contributions to [community.json](https://github.com/awesome-starter/website/blob/main/docs/public/config/community.json), please pay attention to this.
+Since the purpose of Awesome Starter is to provide excellent project templates, it only accepts repository collections of the Starter Template class. If you plan to make PR contributions to [community.json](https://github.com/awesome-starter/website/blob/main/src/public/config/community.json), please pay attention to this.
 :::
 
 ### Template URL description
