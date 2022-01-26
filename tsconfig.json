@@ -15,20 +15,10 @@
     "incremental": false,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
-    "baseUrl": "./",
     "types": [
       "vite/client",
       "node"
     ],
-    "paths": {
-      "@/*": ["src/*"],
-      "@img/*": ["src/assets/img/*"],
-      "@postcss/*": ["src/assets/postcss/*"],
-      "@libs/*": ["src/libs/*"],
-      "@hooks/*": ["src/hooks/*"],
-      "@cp/*": ["src/components/*"],
-      "@views/*": ["src/views/*"]
-    },
     "lib": ["esnext", "dom", "dom.iterable"],
     "plugins": [
       {

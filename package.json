@@ -9,12 +9,13 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "serve": "vitepress serve docs"
+    "dev": "vitepress",
+    "build": "vitepress build",
+    "serve": "vitepress serve",
+    "backup": "git add . && git commit -m \"chore: save the coding progress\" && git push"
   },
   "devDependencies": {
     "vite-plugin-banner": "^0.2.0",
-    "vitepress": "^0.21.4"
+    "vitepress": "^0.21.6"
   }
 }
