@@ -15,7 +15,6 @@
     "backup": "git add . && git commit -m \"chore: save the coding progress\" && git push"
   },
   "devDependencies": {
-    "@vueuse/core": "^7.5.5",
     "vite-plugin-banner": "^0.2.0",
     "vitepress": "^0.21.6"
   }

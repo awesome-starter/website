@@ -32,6 +32,10 @@ export default defineConfig({
   },
   themeConfig: {
     repo: 'awesome-starter/create-preset',
+    // algolia: {
+    //   apiKey: 'your_api_key',
+    //   indexName: 'index_name'
+    // },
     locales: {
       '/': {
         selectText: 'Languages',
