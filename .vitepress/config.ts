@@ -1,20 +1,12 @@
-import path from 'path'
 import { defineConfig } from 'vitepress'
-import { normalizePath } from 'vite'
 import banner from 'vite-plugin-banner'
 import pkg from '../package.json'
-
-// Specify the output directory for packaging
-const outDir = '../dist'
-
-const resolve = (root: string, file: string) =>
-  normalizePath(path.resolve(root, `.vitepress`, file))
 
 export default defineConfig({
   base: '/',
   lang: 'en-US',
   srcDir: 'src',
-  outDir,
+  outDir: 'dist',
   title: 'Awesome Starter',
   description: 'A curated list of awesome things related to starter templates.',
   head: [
@@ -82,8 +74,8 @@ export default defineConfig({
   vite: {
     plugins: [
       banner({
-        outDir,
-        content: `/**\n * name: ${pkg.name}\n * version: v${pkg.version}\n * description: ${pkg.description}\n * author: ${pkg.author}\n * homepage: ${pkg.homepage}\n */`,
+        outDir: '../dist',
+        content: `/**\n * name: ${pkg.name}\n * description: ${pkg.description}\n * author: ${pkg.author}\n * homepage: ${pkg.homepage}\n */`,
       }),
     ],
   },
