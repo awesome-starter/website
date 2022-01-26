@@ -74,7 +74,7 @@
   {
     "tech": "vue",
     "name": "gin-vue-admin",
-    "desc": "A backstage management system based on vue and gin, which separates the front and rear of the full stack.",
+    "desc": "Based on vue and gin, which separates the front and rear of the full stack.",
     "repo": "https://github.com/flipped-aurora/gin-vue-admin#main"
   },
   {
@@ -92,7 +92,25 @@
   {
     "tech": "vue",
     "name": "admin-base-tmpl",
-    "desc": "A free and open source admin template kit. using vite2. Technology stack is Vue2,Element UI,Typescript.",
+    "desc": "A admin template kit. using vite2,Vue2,Element UI,Typescript.",
     "repo": "https://github.com/artskin/admin-base-tmpl#main"
+  },
+  {
+    "tech": "react",
+    "name": "antd-admin",
+    "desc": "An excellent front-end solution for enterprise applications built upon Ant Design and UmiJS.",
+    "repo": "https://github.com/zuiidea/antd-admin"
+  },
+  {
+    "tech": "react",
+    "name": "react-starter-kit",
+    "desc": "Building web applications with React, Relay, and GraphQL.",
+    "repo": "https://github.com/kriasoft/react-starter-kit#main"
+  },
+  {
+    "tech": "react",
+    "name": "react-starter-kit",
+    "desc": "B2B applications on top of REST/GraphQL APIs, using Material Design.",
+    "repo": "https://github.com/marmelab/react-admin"
   }
 ]
