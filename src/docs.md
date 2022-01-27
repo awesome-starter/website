@@ -43,6 +43,10 @@ preset init
     rollup
 ```
 
+### Show and hide
+
+Since `v0.10.0`, If a technology stack is added, but no corresponding template can be matched, it will be temporarily hidden and will not be displayed in the list of selectable technology stacks until it has a corresponding template associated with it.
+
 ### Add technology stack
 
 At present, the technology stack needs to be maintained through the [tech.json](https://github.com/awesome-starter/website/blob/main/src/public/config/tech.json) file on the official website.
@@ -73,15 +77,21 @@ Templates created through the Preset CLI are obtained through the Git repository
 
 Templates are classified into three sources: official maintenance, open source community, and local configuration.
 
-Source|Description|View
-:-:|:--|:-:
-Official Maintenance|Maintained by the official Awesome Starter team.|[official.json](https://github.com/awesome-starter/website/blob/main/src/public/config/official.json)
-Open Source Community|Excellent templates found from open source communities like GitHub, merged via PR.|[community.json](https://github.com/awesome-starter/website/blob/main/src/public/config/community.json)
-Local Configuration|A config file that you store locally on your computer to use as your private config.|[Configure](#configure)
+Source|Description|Color|View
+:-:|:--|:-:|:-:
+Official Maintenance|Maintained by the official Awesome Starter team.|Yellow|[official.json](https://github.com/awesome-starter/website/blob/main/src/public/config/official.json)
+Open Source Community|Excellent templates found from open source communities like GitHub.|White|[community.json](https://github.com/awesome-starter/website/blob/main/src/public/config/community.json)
+Local Configuration|A config file that you store locally on your computer.|Cyan|[Configure](#configure)
 
 ### Sort priority
 
 Currently, it will be sorted according to the priority of "Local Configuration" > "Official Maintenance" > "Open Source Community", and "Local Configuration" will be placed at the top of the list, which is convenient for your daily use.
+
+:::tip
+Since `v0.10.0`, the order of community templates is no longer fixed, and the order will be randomly generated each time, in order to allow different templates to have enough opportunities to be exposed at the top.
+
+If there are some community templates that you commonly use, please add them to the local configuration for easy search, so that they can be fixed at the top of the list.
+:::
 
 ### Rules for adding templates
 
@@ -109,6 +119,8 @@ repo|string|Template repository URL, supports `https` and `git@` starting addres
 
 :::tip
 Since the purpose of Awesome Starter is to provide excellent project templates, it only accepts repository collections of the Starter Template class. If you plan to make PR contributions to [community.json](https://github.com/awesome-starter/website/blob/main/src/public/config/community.json), please pay attention to this.
+
+For the beauty of the list, currently the template name can display up to 20 characters, and the template description can display up to 80 characters. Exceeding the number of characters will end with `…` ellipsis.
 :::
 
 ### Template URL description

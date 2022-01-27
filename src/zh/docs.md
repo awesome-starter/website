@@ -43,6 +43,10 @@ preset init
     rollup
 ```
 
+### 显示与隐藏
+
+从 `v0.10.0` 版本开始，如果一项技术栈被添加进来，但是没有对应的模板可以匹配到，那么会被暂时隐藏，不会在可选择的技术栈列表里展示，直到它有对应的模板被关联。
+
 ### 增加技术栈
 
 目前技术栈需要通过官网的 [tech.json](https://github.com/awesome-starter/website/blob/main/src/public/config/tech.json) 文件来维护。
@@ -73,15 +77,21 @@ color|Color Hex|为了有足够的辨识度和关联性，请从技术栈的 LOG
 
 模板归类为三种来源：官方维护、开源社区、本地配置。
 
-来源|说明|查看
-:-:|:--|:-:
-官方维护|由 Awesome Starter 官方团队维护|[official.json](https://github.com/awesome-starter/website/blob/main/src/public/config/official.json)
-开源社区|从 GitHub 等开源社区发现的优秀模板，可通过 PR 合并|[community.json](https://github.com/awesome-starter/website/blob/main/src/public/config/community.json)
-本地配置|您存储在计算机本地的一个配置文件，作为您的私有配置使用|[配置](#配置)
+来源|说明|颜色|查看
+:-:|:--|:-:|:-:
+官方维护|由 Awesome Starter 官方团队维护|黄色|[official.json](https://github.com/awesome-starter/website/blob/main/src/public/config/official.json)
+开源社区|从 GitHub 等开源社区发现的优秀模板|白色|[community.json](https://github.com/awesome-starter/website/blob/main/src/public/config/community.json)
+本地配置|您存储在计算机本地的一个配置文件|青蓝色|[配置](#配置)
 
 ### 排序的优先级
 
 目前会按照 “本地配置” > “官方维护” > “开源社区” 的优先级排序，“本地配置” 会置于列表的最前面，方便您的日常使用。
+
+:::tip
+从 `v0.10.0` 开始，社区模板的排序不再固定，每次会随机生成排序，这是为了让不同的模板都有足够的机会被曝光在最前面。
+
+如果有一些社区模板是你常用的，为了方便查找，请加入到本地配置里，这样可以被固定在列表最前面。
+:::
 
 ### 添加模板的规则
 
@@ -109,6 +119,8 @@ repo|string|模板 URL ，支持 `https` 和 `git@` 开头地址，详见下方�
 
 :::tip 提示
 由于 Awesome Starter 的宗旨是提供优秀的项目模板，所以仅接受 Starter Template 类的仓库收集，如果你打算向 [community.json](https://github.com/awesome-starter/website/blob/main/src/public/config/community.json) 发起 PR 贡献，请留意这一点。
+
+为了列表的美观，目前模板名称最多显示 20 个字符，模板描述最多显示 80 个字符，超出字数会以 `…` 省略号结尾。
 :::
 
 ### 模板 URL 说明
