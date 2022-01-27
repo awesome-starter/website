@@ -25,7 +25,7 @@
   },
   {
     "tech": "vue",
-    "name": "vite-ts-tailwind-starter",
+    "name": "vite-ts-tailwind",
     "desc": "Opinionated Vite + Vue 3 + TypeScript + Tailwind CSS starter template w/ tests and CI",
     "repo": "https://github.com/Uninen/vite-ts-tailwind-starter#main"
   },
