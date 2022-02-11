@@ -257,7 +257,7 @@ Please refer to the section [Add technology stack](#add-technology-stack) for th
 For the slow download problem in some areas, we provide the mirror proxy to speed up the download. You can use the `proxy` (alias `p`) command to turn on/off of the proxy . This command needs to be used in conjunction with subcommands.
 
 :::tip
-At present, the proxy service is only for GitHub's HTTPS download source, and the service scope may only be suitable for users in China (because the [CNPM Mirror](https://github.com.cnpmjs.org/) is used), if you can't download  after turn on the proxy, please turn off it.
+At present, the proxy service is only for GitHub's HTTPS download source, (Using [Cloudflare Mirror](https://create.preset.workers.dev/)), if you can't download  after turn on the proxy, please turn off it.
 :::
 
 ### Turn On
