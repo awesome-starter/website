@@ -34,28 +34,29 @@ Since `v0.6.0`, the documentation will explain the operation instructions in the
 
 It is recommended to install globally for easier usage, Please install it globally first:
 
-With NPM:
-
 ```bash
 npm install -g create-preset
-```
-
-With Yarn:
-
-```bash
-yarn global add create-preset
-```
-
-With PNPM:
-
-```bash
-pnpm add -g create-preset
 ```
 
 You can use the following command to check whether the installation was successful. If successful, you will get a version number.
 
 ```bash
+# View the version number of the global installation
 preset -v
+```
+
+Then you can create a project by "Select Technology Stack -> Select Template":
+
+```bash
+# It will start "Select Technology Stack -> Select Template"
+preset init
+```
+
+You can also directly specify a template to create a project (requires `v0.12.0` above):
+
+```bash
+# A project called `hello-vue` will be created using the `vue3-ts-vite` template
+preset init hello-vue --template vue3-ts-vite
 ```
 
 You can refer to [Upgrade](#upgrade) to learn how to upgrade in the future.
@@ -64,22 +65,8 @@ You can refer to [Upgrade](#upgrade) to learn how to upgrade in the future.
 
 You can also simply experience it through the command of the package manager, and directly create the template you need by create preset.
 
-With NPM:
-
 ```bash
-npm init preset@latest init
-```
-
-With Yarn:
-
-```bash
-yarn create preset init
-```
-
-With PNPM:
-
-```bash
-pnpm create preset init
+npm create preset
 ```
 
 Then follow the prompts!
@@ -90,7 +77,7 @@ This usage allows you to use the latest version of the Preset CLI every time.
 
 ### Full Documentation
 
-Please visit [Documentation](/docs.html) to view the operation documentation.
+Please visit [Documentation](/docs.html) for more features.
 
 ### Template list
 
