@@ -285,7 +285,7 @@ The proxy service can be turned on with the `on` subcommand of `proxy`.
 preset proxy on
 ```
 
-Once enabled, CNPM's mirror service will be used to download starter templates.
+Once enabled, Cloudflare CDN's mirror service will be used to download starter templates.
 
 ### Turn Off
 
@@ -295,7 +295,7 @@ The proxy service can be turned off with the `off` subcommand of `proxy`.
 preset proxy off
 ```
 
-After the proxy is turned off, it will be downloaded directly from the GitHub URL, and will no longer be mirrored through CNPM.
+After the proxy is turned off, it will be downloaded directly from the GitHub URL, and will no longer be mirrored.
 
 ## Upgrade
 
