@@ -284,7 +284,7 @@ JSON 字段说明请查阅 [增加技术栈](#增加技术栈) 一节。
 preset proxy on
 ```
 
-开启后，会使用 CNPM 的镜像服务来下载项目模板。
+开启后，会使用 Cloudflare CDN 的镜像服务来下载项目模板。
 
 ### 关闭代理
 
@@ -294,7 +294,7 @@ preset proxy on
 preset proxy off
 ```
 
-关闭后，会直接使用 GitHub 的地址下载，不再通过 CNPM 镜像。
+关闭后，会直接使用 GitHub 的地址下载，不再通过镜像源。
 
 ## 升级
 
