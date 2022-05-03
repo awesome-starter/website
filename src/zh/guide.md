@@ -34,28 +34,29 @@ Awesome Starter 的 CLI 脚手架，提供快速创建预设项目的能力。
 
 推荐全局安装它，用起来更方便，请先全局安装：
 
-使用 NPM:
-
 ```bash
 npm install -g create-preset
-```
-
-使用 Yarn:
-
-```bash
-yarn global add create-preset
-```
-
-使用 PNPM:
-
-```bash
-pnpm add -g create-preset
 ```
 
 可以通过下面这个命令来检查安装是否成功，如果成功，将会得到一个版本号。
 
 ```bash
+# 查看全局安装的版本号
 preset -v
+```
+
+然后你可以通过 “选择技术栈 -> 选择模板” 的方式创建项目：
+
+```bash
+# 将进入 “选择技术栈 -> 选择模板” 的环节
+preset init
+```
+
+也可以直接指定一个模板创建项目（需要 `v0.12.0` 以上）：
+
+```bash
+# 将使用 `vue3-ts-vite` 模板创建一个名为 `hello-vue` 的项目
+preset init hello-vue --template vue3-ts-vite
 ```
 
 可以查阅 [升级](#升级) 了解后续如何升级。
@@ -64,22 +65,8 @@ preset -v
 
 也可以通过包管理器的命令来简单体验，通过创建配置的方式直接创建你需要的模板。
 
-使用 NPM:
-
 ```bash
-npm init preset@latest init
-```
-
-使用 Yarn:
-
-```bash
-yarn create preset init
-```
-
-使用 PNPM:
-
-```bash
-pnpm create preset init
+npm create preset
 ```
 
 然后按照提示进行操作！
@@ -90,7 +77,7 @@ pnpm create preset init
 
 ### 操作文档
 
-请访问 [文档](/zh/docs.html) 查看操作文档。
+请访问 [操作文档](/zh/docs.md) 查看更多功能。
 
 ### 模板列表
 

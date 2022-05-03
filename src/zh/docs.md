@@ -14,6 +14,23 @@
 preset init
 ```
 
+### 指定项目名称
+
+你可以添加一个参数作为项目名称，接下来会跳过输入项目名称的问题，直接选择技术栈：
+
+```bash
+preset init hello-vue
+```
+
+### 指定项目模板
+
+也可以通过 `--template` 选项直接指定一个模板创建项目（需要 `v0.12.0` 以上）：
+
+```bash
+# 将使用 `vue3-ts-vite` 模板创建一个名为 `hello-vue` 的项目
+preset init hello-vue --template vue3-ts-vite
+```
+
 ### 请求最新配置
 
 Preset CLI 支持在不更新版本的情况下就获取到最新的技术栈列表和启动模板列表，因为它们是通过配置文件来获取的。

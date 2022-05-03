@@ -7,25 +7,17 @@ footer: MIT Licensed | Copyright © 2022-present Peiquan Cheng
 
 ## Simply Usage
 
-With NPM:
+You can simply experience it through the command of the package manager, and directly create the template you need by create preset.
 
 ```bash
-npm init preset@latest init
-```
-
-With Yarn:
-
-```bash
-yarn create preset init
-```
-
-With PNPM:
-
-```bash
-pnpm create preset init
+npm create preset
 ```
 
 Then follow the prompts!
+
+>If you download fails, try setting the proxy `npm create preset proxy on` and try again.
+
+See [Getting Started](guide.md#getting-started) for more usage.
 
 ## Features Preview
 
