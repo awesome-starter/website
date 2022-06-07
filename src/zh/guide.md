@@ -38,6 +38,10 @@ Awesome Starter 的 CLI 脚手架，提供快速创建预设项目的能力。
 npm install -g create-preset
 ```
 
+:::tip
+如果你在全局安装的时候遇到了 `node:internal/readline/emitKeypressEvents:71` 的错误，可参考 [#29](https://github.com/awesome-starter/create-preset/issues/29) 的解决方案。
+:::
+
 可以通过下面这个命令来检查安装是否成功，如果成功，将会得到一个版本号。
 
 ```bash
