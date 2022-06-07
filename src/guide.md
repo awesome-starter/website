@@ -38,6 +38,10 @@ It is recommended to install globally for easier usage, Please install it global
 npm install -g create-preset
 ```
 
+:::tip
+If you encounter an error of  `node:internal/readline/emitKeypressEvents:71` when installing globally, please refer to the solution of [#29](https://github.com/awesome-starter/create-preset/issues/29) .
+:::
+
 You can use the following command to check whether the installation was successful. If successful, you will get a version number.
 
 ```bash
