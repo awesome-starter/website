@@ -37,7 +37,7 @@
   },
   {
     "tech": "vue",
-    "name": "vue3-vite-prerender",
+    "name": "vue3-ts-vite-prerender",
     "desc": "A prerender starter for Vue 3 base on Vite.",
     "repo": "https://github.com/chengpeiquan/vite-vue3-prerender-demo"
   }
