@@ -1,4 +1,6 @@
+import { resolve } from 'path'
 import { defineConfig } from 'vitepress'
+import unocss from 'unocss/vite'
 import banner from 'vite-plugin-banner'
 import { nav } from './nav'
 import { head } from './head'
@@ -17,7 +19,7 @@ export default defineConfig({
   locales: {
     root: {
       label: 'English',
-      lang: 'en-US',
+      lang: 'en',
       title: 'Create Preset',
       description: 'Provides the ability to quickly create preset projects.',
       themeConfig: {
@@ -27,7 +29,7 @@ export default defineConfig({
     },
     zh: {
       label: '简体中文',
-      lang: 'zh-CN',
+      lang: 'zh',
       title: 'Create Preset',
       description: '提供快速创建预设项目模板的能力。',
       themeConfig: {
@@ -37,16 +39,29 @@ export default defineConfig({
     },
   },
   themeConfig: {
-    // algolia: {
-    //   apiKey: 'your_api_key',
-    //   indexName: 'index_name'
-    // },
+    socialLinks: [
+      {
+        icon: 'github',
+        link: 'https://github.com/awesome-starter/create-preset',
+      },
+    ],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2022-PRESENT 程沛权',
+    },
   },
   vite: {
     server: {
       port: 3618,
     },
+    resolve: {
+      alias: {
+        '@config': resolve(__dirname, '../config'),
+        '@theme': resolve(__dirname, '../theme'),
+      },
+    },
     plugins: [
+      unocss(),
       banner({
         outDir: '../dist',
         content: [

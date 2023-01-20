@@ -18,7 +18,8 @@
     "baseUrl": ".",
     "rootDir": ".",
     "paths": {
-      "@/*": ["docs/*"]
+      "@config/*": [".vitepress/config/*"],
+      "@theme/*": [".vitepress/theme/*"]
     },
     "lib": ["ESNext", "DOM", "DOM.Iterable"]
   },
