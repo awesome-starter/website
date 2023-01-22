@@ -47,7 +47,12 @@ export default defineConfig({
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022-PRESENT 程沛权',
+      copyright: [
+        'Copyright',
+        '©',
+        '2022-PRESENT',
+        '<a href="https://github.com/chengpeiquan" target="_blank">@chengpeiquan</a>',
+      ].join(' '),
     },
   },
   vite: {
