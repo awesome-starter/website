@@ -10,7 +10,7 @@ export const sidebar: Record<Locales, DefaultTheme.Sidebar> = {
       text: 'Guide',
       items: [
         { text: 'Introduction', link: '/guide/introduction' },
-        { text: 'Getting Started', link: '/guide/' },
+        { text: 'Getting Started', link: '/guide/getting-started' },
       ],
     },
     {
@@ -34,7 +34,7 @@ export const sidebar: Record<Locales, DefaultTheme.Sidebar> = {
       text: 'Guide',
       items: [
         { text: '介绍', link: '/zh/guide/introduction' },
-        { text: '快速上手', link: '/zh/guide/' },
+        { text: '快速上手', link: '/zh/guide/getting-started' },
       ],
     },
     {

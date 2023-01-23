@@ -35,7 +35,7 @@
       <!-- GitHub stars -->
     </div>
 
-    <a class="btn-started" href="./guide/">
+    <a class="btn-started" href="./guide/getting-started">
       {{ $t('home.guideButtonText') }}
     </a>
   </div>
@@ -76,7 +76,7 @@
   <div class="md:w-screen-lg w-11/12 mx-auto vp-doc">
     <slot />
 
-    <a class="btn-started large" href="./guide/">
+    <a class="btn-started large" href="./guide/getting-started">
       {{ $t('home.guideButtonText') }}
     </a>
   </div>
