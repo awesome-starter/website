@@ -16,7 +16,7 @@ export const sidebar: Record<Locales, DefaultTheme.Sidebar> = {
     {
       text: 'Docs',
       items: [
-        { text: 'Create Preset', link: '/docs/create' },
+        { text: 'Basic Usage', link: '/docs/basic-usage' },
         { text: 'Starter Template', link: '/docs/starter-template' },
         { text: 'Technology Stack', link: '/docs/technology-stack' },
         { text: 'Local Configuration', link: '/docs/local-configuration' },

@@ -1,4 +1,4 @@
-# Create Preset
+# Basic Usage
 
 Creating templates is the core feature of Preset CLI, which provides a variety of project templates for you to use.
 
