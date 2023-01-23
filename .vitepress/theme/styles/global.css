@@ -18,3 +18,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #3c3c3c;
 }
+
+.vp-doc img {
+  @apply block rounded-xl mx-auto;
+}

@@ -35,7 +35,7 @@
       <!-- GitHub stars -->
     </div>
 
-    <a class="btn-started" href="./guide.html">
+    <a class="btn-started" href="./guide/">
       {{ $t('home.guideButtonText') }}
     </a>
   </div>
@@ -76,7 +76,7 @@
   <div class="md:w-screen-lg w-11/12 mx-auto vp-doc">
     <slot />
 
-    <a class="btn-started large" href="./guide.html">
+    <a class="btn-started large" href="./guide/">
       {{ $t('home.guideButtonText') }}
     </a>
   </div>
@@ -106,9 +106,5 @@
 }
 .btn-started.large {
   @apply w-60 h-12 text-xl;
-}
-
-.vp-doc :deep(img) {
-  @apply block rounded-xl mx-auto;
 }
 </style>

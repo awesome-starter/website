@@ -8,11 +8,13 @@ export const nav: Record<Locales, DefaultTheme.NavItem[]> = {
   en: [
     {
       text: 'Guide',
-      link: '/guide',
+      link: '/guide/',
+      activeMatch: '/guide/',
     },
     {
       text: 'Docs',
-      link: '/docs',
+      link: '/docs/create',
+      activeMatch: '/docs/',
     },
     {
       text: 'Release Notes',
@@ -26,11 +28,13 @@ export const nav: Record<Locales, DefaultTheme.NavItem[]> = {
   zh: [
     {
       text: '指南',
-      link: '/zh/guide',
+      link: '/zh/guide/',
+      activeMatch: '/zh/guide/',
     },
     {
       text: '文档',
-      link: '/zh/docs',
+      link: '/zh/docs/create',
+      activeMatch: '/zh/docs/',
     },
     {
       text: '更新记录',
