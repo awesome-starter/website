@@ -1,0 +1,32 @@
+/* https://windicss.org/utilities/general/colors.html */
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar:horizontal {
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  /* background: #1c1c1e; */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #323232;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3c3c3c;
+}
+
+.vp-doc img {
+  @apply block rounded-xl mx-auto;
+}

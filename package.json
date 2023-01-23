@@ -1,7 +1,7 @@
 {
-  "name": "awesome-starter-website",
+  "name": "website",
   "version": "0.0.0",
-  "description": "The official website for create-preset.",
+  "description": "Provides the ability to quickly create preset projects.",
   "homepage": "https://preset.js.org/",
   "main": "index.js",
   "repository": "https://github.com/awesome-starter/website",
@@ -9,13 +9,23 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "vitepress",
+    "dev": "vitepress --host",
     "build": "vitepress build",
-    "serve": "vitepress serve",
-    "backup": "git add . && git commit -m \"chore: save the coding progress\" && git push"
+    "preview": "vitepress preview",
+    "backup": "git add . && git commit -m \"chore: backup\" && git push",
+    "up": "npx npm-check-updates -u"
+  },
+  "dependencies": {
+    "vue": "^3.2.45",
+    "vue-i18n": "^9.2.2"
   },
   "devDependencies": {
-    "vite-plugin-banner": "^0.2.0",
-    "vitepress": "^0.22.3"
+    "@types/node": "^18.11.18",
+    "@unocss/preset-typography": "^0.48.4",
+    "@unocss/preset-uno": "^0.48.4",
+    "@unocss/transformer-directives": "^0.48.4",
+    "unocss": "^0.48.4",
+    "vite-plugin-banner": "^0.7.0",
+    "vitepress": "^1.0.0-alpha.40"
   }
 }
