@@ -1,4 +1,4 @@
-# Technology Stack
+# Technology Stack {#technology-stack}
 
 When creating a project, there will be a step to select the technology stack, You can easily find the template you need by classifying the technology stack.
 
@@ -19,11 +19,11 @@ preset init
     rollup
 ```
 
-## Show and hide
+## Show and hide {#show-and-hide}
 
 Since `v0.10.0`, If a technology stack is added, but no corresponding template can be matched, it will be temporarily hidden and will not be displayed in the list of selectable technology stacks until it has a corresponding template associated with it.
 
-## Add technology stack
+## Add technology stack {#add-technology-stack}
 
 At present, the technology stack needs to be maintained through the [tech.json](https://github.com/awesome-starter/website/blob/main/src/public/config/tech.json) file on the official website.
 
@@ -45,6 +45,6 @@ JSON field description:
 
 Please submit a PR, the technology stack will be added to the list after the merge.
 
-## Manage local technology stacks
+## Manage local technology stacks {#manage-local-technology-stacks}
 
 See: [Manage local technology stacks in your local configuration](local-configuration.md#manage-local-technology-stacks) .

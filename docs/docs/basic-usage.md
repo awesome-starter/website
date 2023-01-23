@@ -1,4 +1,4 @@
-# Basic Usage
+# Basic Usage {#basic-usage}
 
 Creating templates is the core feature of Preset CLI, which provides a variety of project templates for you to use.
 
@@ -6,7 +6,7 @@ Creating templates is the core feature of Preset CLI, which provides a variety o
 The template list is under continuous improvement.
 :::
 
-## Initialization
+## Initialization {#initialization}
 
 You can create a starter templates to your liking by `init` (alias `i`) command.
 
@@ -14,7 +14,7 @@ You can create a starter templates to your liking by `init` (alias `i`) command.
 preset init
 ```
 
-## Specify a project name
+## Specify a project name {#specify-a-project-name}
 
 You can add a parameter as the project name, then you will skip the problem of entering the project name and choose the technology stack directly:
 
@@ -22,7 +22,7 @@ You can add a parameter as the project name, then you will skip the problem of e
 preset init hello-vue
 ```
 
-## Specify a project template
+## Specify a project template {#specify-a-project-template}
 
 You can directly specify a template to create a project with the `--template` option (requires `v0.12.0` above):
 
@@ -31,7 +31,7 @@ You can directly specify a template to create a project with the `--template` op
 preset init hello-vue --template vue3-ts-vite
 ```
 
-## Fetch latest configuration
+## Fetch latest configuration {#fetch-latest-configuration}
 
 Preset CLI supports getting the latest technology stack list and starter template list without updating the version, because they are obtained through configuration files.
 

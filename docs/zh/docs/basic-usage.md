@@ -1,4 +1,4 @@
-# 基本用法
+# 基本用法 {#basic-usage}
 
 创建模板是 Preset CLI 的核心功能，提供了丰富多彩的项目模板供您使用。
 
@@ -6,7 +6,7 @@
 模板列表在持续完善中。
 :::
 
-## 初始化
+## 初始化 {#initialization}
 
 可以通过 `init` （别名 `i`） 命令来创建一套你喜欢的模板。
 
@@ -14,7 +14,7 @@
 preset init
 ```
 
-## 指定项目名称
+## 指定项目名称 {#specify-a-project-name}
 
 你可以添加一个参数作为项目名称，接下来会跳过输入项目名称的问题，直接选择技术栈：
 
@@ -22,7 +22,7 @@ preset init
 preset init hello-vue
 ```
 
-## 指定项目模板
+## 指定项目模板 {#specify-a-project-template}
 
 也可以通过 `--template` 选项直接指定一个模板创建项目（需要 `v0.12.0` 以上）：
 
@@ -31,7 +31,7 @@ preset init hello-vue
 preset init hello-vue --template vue3-ts-vite
 ```
 
-## 请求最新配置
+## 请求最新配置 {#fetch-latest-configuration}
 
 Preset CLI 支持在不更新版本的情况下就获取到最新的技术栈列表和启动模板列表，因为它们是通过配置文件来获取的。
 

@@ -1,12 +1,12 @@
-# Local Configuration
+# Local Configuration {#local-configuration}
 
 Preset CLI provides a local configuration management function, which is convenient for you to manage commonly used private configurations.
 
-## Manage local configuration
+## Manage local configuration {#manage-local-configuration}
 
 Local configuration management can be done through the `config` (alias `c`) command, which needs to be used in conjunction with subcommands.
 
-## Prep work
+## Prep work {#prep-work}
 
 Create a JSON file on your computer's hard drive and write the contents of the file in the following format:
 
@@ -25,7 +25,7 @@ For example: `F:\config\local-preset.json`
 
 In this way, a local configuration file is complete.
 
-## Set configuration file
+## Set configuration file {#set-configuration-file}
 
 You can set the configuration file through the subcommand `set` of `config`. After setting, when Preset CLI reads the configuration, it will also read your local configuration.
 
@@ -43,7 +43,7 @@ preset config set F:\config\local-preset.json
 If your file path has spaces, use `"` double quotes around the path.
 :::
 
-## Query configuration status
+## Query configuration status {#query-configuration-status}
 
 The currently set configuration file path can be queried through the `get` subcommand of `config`.
 
@@ -53,7 +53,7 @@ preset config get
 
 This command is very useful if you forget where the configuration file is saved!
 
-## Remove configuration settings
+## Remove configuration settings {#remove-configuration-settings}
 
 If you want to cancel the settings of the local configuration, you can cancel the settings with the `remove` subcommand of `config`.
 
@@ -61,7 +61,7 @@ If you want to cancel the settings of the local configuration, you can cancel th
 preset config remove
 ```
 
-## Manage local technology stacks
+## Manage local technology stacks {#manage-local-technology-stacks}
 
 The `config` command also provides an option `--tech` (abbreviated `-t`), which is used to manage the local technology stack. When you add the `--tech` option, it will enter the technology stack management mode ( instead of template configuration).
 

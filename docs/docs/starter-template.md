@@ -1,8 +1,8 @@
-# Starter Template
+# Starter Template {#starter-template}
 
 Templates created through the Preset CLI are obtained through the Git repository.
 
-## About classification of sources
+## About classification of sources {#about-classification-of-sources}
 
 Templates are classified into three sources: official maintenance, open source community, and local configuration.
 
@@ -12,7 +12,7 @@ Templates are classified into three sources: official maintenance, open source c
 | Open Source Community | Excellent templates found from open source communities like GitHub. | White  | [community.json](https://github.com/awesome-starter/website/blob/main/src/public/config/community.json) |
 |  Local Configuration  | A config file that you store locally on your computer.              |  Cyan  |                                         [Configure](#configure)                                         |
 
-## Rules for adding templates
+## Rules for adding templates {#rules-for-adding-templates}
 
 The configuration file is in JSON format, so please follow the correct JSON syntax and add it to the array in the template file.
 
@@ -42,11 +42,11 @@ Since the purpose of Awesome Starter is to provide excellent project templates, 
 For the beauty of the list, currently the template name can display up to 20 characters, and the template description can display up to 80 characters. Exceeding the number of characters will end with `…` ellipsis.
 :::
 
-## Template URL description
+## Template URL description {#template-url-description}
 
 Template URLs are supported in two formats: [HTTPS](#https) and [SSH](#ssh).
 
-### HTTPS
+### HTTPS {#https}
 
 By default, HTTPS is used to configure for public repositories:
 
@@ -66,7 +66,7 @@ https://github.com/awesome-starter/vue3-ts-vite-starter#main
 So, both the official template and the community template need to be configured this way, since they both have to be public repositories.
 :::
 
-### SSH
+### SSH {#ssh}
 
 If you configure your SSH Key correctly, you can download the template via SSH, which will pull the code in the form of `git clone`.
 
@@ -81,7 +81,7 @@ You can visit [Working with SSH key passphrases](https://docs.github.com/en/auth
 The provision of this method is mainly used to manage private repositories in the local configuration.
 :::
 
-## Sort priority
+## Sort priority {#sort-priority}
 
 Currently, it will be sorted according to the priority of "Local Configuration" > "Official Maintenance" > "Open Source Community", and "Local Configuration" will be placed at the top of the list, which is convenient for your daily use.
 
@@ -91,6 +91,6 @@ Since `v0.10.0`, the order of community templates is no longer fixed, and the or
 If there are some community templates that you commonly use, please add them to the local configuration for easy search, so that they can be fixed at the top of the list.
 :::
 
-## Manage local templates
+## Manage local templates {#manage-local-templates}
 
 See: [Manage local templates in your local configuration](local-configuration.md) .

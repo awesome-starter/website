@@ -1,4 +1,4 @@
-# 技术栈分类
+# 技术栈分类 {#technology-stack}
 
 创建项目的时候会有一个选择技术栈的步骤，可以通过技术栈的分类，方便的找到你需要的模板。
 
@@ -19,11 +19,11 @@ preset init
     rollup
 ```
 
-## 显示与隐藏
+## 显示与隐藏 {#show-and-hide}
 
 从 `v0.10.0` 版本开始，如果一项技术栈被添加进来，但是没有对应的模板可以匹配到，那么会被暂时隐藏，不会在可选择的技术栈列表里展示，直到它有对应的模板被关联。
 
-## 增加技术栈
+## 增加技术栈 {#add-technology-stack}
 
 目前技术栈需要通过官网的 [tech.json](https://github.com/awesome-starter/website/blob/main/src/public/config/tech.json) 文件来维护。
 
@@ -45,6 +45,6 @@ JSON 字段说明：
 
 请发起 PR ，合并后技术栈将会被添加列表里。
 
-## 管理本地技术栈
+## 管理本地技术栈 {#manage-local-technology-stacks}
 
 请参考: [在本地配置里管理本地技术栈](local-configuration.md#manage-local-technology-stacks) 。

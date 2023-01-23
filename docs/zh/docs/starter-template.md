@@ -1,8 +1,8 @@
-# 项目启动模板
+# 项目启动模板 {#starter-template}
 
 通过 Preset CLI 创建的模板，都是通过 Git 仓库来获取。
 
-## 关于来源分类
+## 关于来源分类 {#about-classification-of-sources}
 
 模板归类为三种来源：官方维护、开源社区、本地配置。
 
@@ -12,7 +12,7 @@
 | 开源社区 | 从 GitHub 等开源社区发现的优秀模板 |  白色  | [community.json](https://github.com/awesome-starter/website/blob/main/src/public/config/community.json) |
 | 本地配置 | 您存储在计算机本地的一个配置文件   | 青蓝色 |                                              [配置](#配置)                                              |
 
-## 添加模板的规则
+## 添加模板的规则 {#rules-for-adding-templates}
 
 配置文件是 JSON 格式，所以请遵循正确的 JSON 语法，添加到模板文件的数组里。
 
@@ -42,11 +42,11 @@ JSON 字段说明：
 为了列表的美观，目前模板名称最多显示 20 个字符，模板描述最多显示 80 个字符，超出字数会以 `…` 省略号结尾。
 :::
 
-## 模板 URL 说明
+## 模板 URL 说明 {#template-url-description}
 
 模板 URL 有两种格式支持：[HTTPS](#https) 和 [SSH](#ssh) 。
 
-### HTTPS
+### HTTPS {#https}
 
 默认使用 HTTPS 来配置，面向公开仓库：
 
@@ -65,7 +65,7 @@ https://github.com/awesome-starter/vue3-ts-vite-starter#main
 官方模板和社区模板都需要以这种方式配置，因为它们都必须是公开的仓库。
 :::
 
-### SSH
+### SSH {#ssh}
 
 如果你正确配置了 SSH Key ，可以通过 SSH 的方式来下载模板，这将通过 `git clone` 的形式拉取代码。
 
@@ -80,7 +80,7 @@ git@github.com:awesome-starter/create-preset.git
 这个方式的提供，主要用于管理本地配置里的私有仓库。
 :::
 
-## 排序的优先级
+## 排序的优先级 {#sort-priority}
 
 目前会按照 “本地配置” > “官方维护” > “开源社区” 的优先级排序，“本地配置” 会置于列表的最前面，方便您的日常使用。
 
@@ -90,6 +90,6 @@ git@github.com:awesome-starter/create-preset.git
 如果有一些社区模板是你常用的，为了方便查找，请加入到本地配置里，这样可以被固定在列表最前面。
 :::
 
-## 管理本地模板
+## 管理本地模板 {#manage-local-templates}
 
 请参考: [在本地配置里管理本地模板](local-configuration.md) 。

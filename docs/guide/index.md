@@ -1,4 +1,4 @@
-# Getting Started
+# Getting Started {#getting-started}
 
 We provide two ways to use this CLI.
 
@@ -6,7 +6,7 @@ We provide two ways to use this CLI.
 Since `v0.6.0`, the documentation will explain the operation instructions in the form of global installation by default. Of course, you can still quickly experience it through the package manager commands.
 :::
 
-## Simply Usage
+## Simply Usage {#simply-usage}
 
 You can also simply experience it through the command of the package manager, and directly create the template you need by create preset.
 
@@ -19,7 +19,7 @@ Then follow the prompts!
 This usage allows you to use the latest version of the Preset CLI every time.
 
 
-## Usage
+## Usage {#usage}
 
 It is recommended to install globally for easier usage, Please install it globally first:
 

@@ -1,12 +1,12 @@
-# 本地配置文件
+# 本地配置文件 {#local-configuration}
 
 Preset CLI 提供了本地配置的管理功能，方便你管理常用的私人配置。
 
-## 管理本地配置
+## 管理本地配置 {#manage-local-configuration}
 
 可以通过 `config` （别名 `c`） 命令进行本地配置的管理，该命令需要结合子命令一起使用。
 
-## 准备工作
+## 准备工作 {#prep-work}
 
 创建一个 JSON 文件在你的计算机硬盘里，并按照以下格式写入文件内容：
 
@@ -25,7 +25,7 @@ Preset CLI 提供了本地配置的管理功能，方便你管理常用的私人
 
 这样，一个本地配置文件就完成了。
 
-## 设置配置文件
+## 设置配置文件 {#set-configuration-file}
 
 可以通过 `config` 的子命令 `set` 进行配置文件设置，设置后，Preset CLI 在读取配置时，也会一并读取你的本地配置。
 
@@ -43,7 +43,7 @@ preset config set F:\config\local-preset.json
 如果你的文件路径带有空格，请使用 `"` 双引号将路径包裹起来。
 :::
 
-## 查询配置状态
+## 查询配置状态 {#query-configuration-status}
 
 可以通过 `config` 的子命令 `get` 查询当前设置的配置文件路径。
 
@@ -53,7 +53,7 @@ preset config get
 
 如果你忘记配置文件保存在哪里的话，这个命令非常有用！
 
-## 移除配置设置
+## 移除配置设置 {#remove-configuration-settings}
 
 如果你想取消本地配置的设置，可以通过 `config` 的子命令 `remove` 来取消设置。
 
@@ -86,4 +86,4 @@ preset config set F:\config\local-tech.json --tech
 ]
 ```
 
-JSON 字段说明请查阅 [增加技术栈](technology-stack.md#增加技术栈) 一节。
+JSON 字段说明请查阅 [增加技术栈](technology-stack.md#add-technology-stack) 一节。

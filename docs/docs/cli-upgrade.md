@@ -1,12 +1,12 @@
-# CLI Upgrade
+# CLI Upgrade {#cli-upgrade}
 
 Preset CLI provides the feature of new version detection, which is convenient for you to know whether there is a new version at any time.
 
-## Detect new version
+## Detect new version {#detect-new-version}
 
 You can with `upgrade` (alias `u`) command to detect new version, and if a new version of the Preset CLI is released, you will be asked if you need to upgrade.
 
-## Upgrade the CLI
+## Upgrade the CLI {#upgrade-the-cli}
 
 When a new version is detected, the command line will ask you if you need to upgrade:
 
