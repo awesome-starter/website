@@ -7,6 +7,9 @@ import { head } from './head'
 import { sidebar } from './sidebar'
 import pkg from '../../package.json'
 
+const pattern =
+  'https://github.com/awesome-starter/website/edit/main/docs/:path'
+
 export default defineConfig({
   base: '/',
   appearance: 'dark',
@@ -25,6 +28,9 @@ export default defineConfig({
       themeConfig: {
         nav: nav.en,
         sidebar: sidebar.en,
+        editLink: {
+          pattern,
+        },
       },
     },
     zh: {
@@ -35,10 +41,20 @@ export default defineConfig({
       themeConfig: {
         nav: nav.zh,
         sidebar: sidebar.zh,
+        editLink: {
+          pattern,
+          text: '编辑本页内容',
+        },
+        outlineTitle: '本页导航',
+        docFooter: {
+          prev: '上一篇',
+          next: '下一篇',
+        },
       },
     },
   },
   themeConfig: {
+    // logo: '/logo.svg',
     socialLinks: [
       {
         icon: 'github',

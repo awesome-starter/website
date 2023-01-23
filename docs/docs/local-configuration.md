@@ -86,4 +86,4 @@ The template format of the local technology stack is:
 ]
 ```
 
-Please refer to the section [Add technology stack](#add-technology-stack) for the description of JSON fields.
+Please refer to the section [Add technology stack](technology-stack.md#add-technology-stack) for the description of JSON fields.

@@ -31,20 +31,21 @@ export const sidebar: Record<Locales, DefaultTheme.Sidebar> = {
    */
   zh: [
     {
-      text: 'Getting Started',
+      text: 'Guide',
       items: [
-        { text: 'Introduction', link: '/zh/guide/introduction' },
-        { text: 'Getting Started', link: '/zh/guide/' },
+        { text: '介绍', link: '/zh/guide/introduction' },
+        { text: '快速上手', link: '/zh/guide/' },
       ],
     },
     {
-      text: 'Documentation',
+      text: 'Docs',
       items: [
-        { text: 'Create Preset', link: '/zh/docs/create' },
-        { text: 'Template', link: '/zh/docs/template' },
-        { text: 'Configure', link: '/zh/docs/local-configuration' },
-        { text: 'Proxy', link: '/zh/docs/proxy' },
-        { text: 'Upgrade', link: '/zh/docs/upgrade' },
+        { text: '基本用法', link: '/zh/docs/basic-usage' },
+        { text: '项目启动模板', link: '/zh/docs/starter-template' },
+        { text: '技术栈管理', link: '/zh/docs/technology-stack' },
+        { text: '本地配置文件', link: '/zh/docs/local-configuration' },
+        { text: '代理下载', link: '/zh/docs/proxy-download' },
+        { text: '脚手架升级', link: '/zh/docs/cli-upgrade' },
       ],
     },
   ],

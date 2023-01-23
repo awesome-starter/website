@@ -52,4 +52,4 @@ You can also directly specify a template to create a project (requires `v0.12.0`
 preset init hello-vue --template vue3-ts-vite
 ```
 
-You can refer to [Upgrade](#upgrade) to learn how to upgrade in the future.
+You can refer to [CLI Upgrade](../docs/cli-upgrade.md) to learn how to upgrade in the future.
