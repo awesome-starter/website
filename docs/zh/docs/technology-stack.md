@@ -25,7 +25,7 @@ preset init
 
 ## 增加技术栈 {#add-technology-stack}
 
-目前技术栈需要通过官网的 [tech.json](https://github.com/awesome-starter/website/blob/main/src/public/config/tech.json) 文件来维护。
+目前技术栈需要通过官网的 [tech.json](https://github.com/awesome-starter/website/blob/main/docs/public/config/tech.json) 文件来维护。
 
 如果你有需要添加缺少的技术栈，请按照以下格式添加到文件数组里。
 

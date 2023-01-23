@@ -8,8 +8,8 @@ Templates are classified into three sources: official maintenance, open source c
 
 |        Source         | Description                                                         | Color  |                                                  View                                                   |
 | :-------------------: | :------------------------------------------------------------------ | :----: | :-----------------------------------------------------------------------------------------------------: |
-| Official Maintenance  | Maintained by the official Awesome Starter team.                    | Yellow |  [official.json](https://github.com/awesome-starter/website/blob/main/src/public/config/official.json)  |
-| Open Source Community | Excellent templates found from open source communities like GitHub. | White  | [community.json](https://github.com/awesome-starter/website/blob/main/src/public/config/community.json) |
+| Official Maintenance  | Maintained by the official Awesome Starter team.                    | Yellow |  [official.json](https://github.com/awesome-starter/website/blob/main/docs/public/config/official.json)  |
+| Open Source Community | Excellent templates found from open source communities like GitHub. | White  | [community.json](https://github.com/awesome-starter/website/blob/main/docs/public/config/community.json) |
 |  Local Configuration  | A config file that you store locally on your computer.              |  Cyan  |                                         [Configure](#configure)                                         |
 
 ## Rules for adding templates {#rules-for-adding-templates}
@@ -31,13 +31,13 @@ JSON field description:
 
 | Field |  Type  | Description                                                                                                                                         |
 | :---: | :----: | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| tech  | string | Technology stack, please check [here](https://github.com/awesome-starter/website/blob/main/src/public/config/tech.json) for legal tech stack names. |
+| tech  | string | Technology stack, please check [here](https://github.com/awesome-starter/website/blob/main/docs/public/config/tech.json) for legal tech stack names. |
 | name  | string | Name of the template, please omit words like `template` or `starter`, just write the base name.                                                     |
 | desc  | string | Description of the template, one sentence to understand the characteristics of this template.                                                       |
 | repo  | string | Template repository URL, supports `https` and `git@` starting addresses, see the following [Template URL description](#template-url-description)    |
 
 :::tip
-Since the purpose of Awesome Starter is to provide excellent project templates, it only accepts repository collections of the Starter Template class. If you plan to make PR contributions to [community.json](https://github.com/awesome-starter/website/blob/main/src/public/config/community.json), please pay attention to this.
+Since the purpose of Awesome Starter is to provide excellent project templates, it only accepts repository collections of the Starter Template class. If you plan to make PR contributions to [community.json](https://github.com/awesome-starter/website/blob/main/docs/public/config/community.json), please pay attention to this.
 
 For the beauty of the list, currently the template name can display up to 20 characters, and the template description can display up to 80 characters. Exceeding the number of characters will end with `…` ellipsis.
 :::
