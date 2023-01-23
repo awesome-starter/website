@@ -8,7 +8,7 @@ export const nav: Record<Locales, DefaultTheme.NavItem[]> = {
   en: [
     {
       text: 'Guide',
-      link: '/guide/',
+      link: '/guide/getting-started',
       activeMatch: '/guide/',
     },
     {
@@ -28,7 +28,7 @@ export const nav: Record<Locales, DefaultTheme.NavItem[]> = {
   zh: [
     {
       text: '指南',
-      link: '/zh/guide/',
+      link: '/zh/guide/getting-started',
       activeMatch: '/zh/guide/',
     },
     {
