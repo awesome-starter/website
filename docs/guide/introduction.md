@@ -10,7 +10,7 @@ The CLI for Awesome Starter, Provides the ability to quickly create preset proje
 In addition to creating excellent templates provided by the official and open source communities, you are encouraged to use it as a tool for managing personal common project configurations, Visit [Manage local configuration](docs.md#manage-local-configuration) to learn more.
 :::
 
-![create-preset](https://cdn.jsdelivr.net/gh/chengpeiquan/assets-storage/img/2021/11/20220110155037.gif)
+![create-preset](/assets/img/create-preset-preview.gif)
 
 ## What is Awesome Starter? {#what-is-awesome-starter}
 

@@ -17,7 +17,7 @@ Then follow the prompts!
 
 ## Features Preview
 
-![create-preset](https://cdn.jsdelivr.net/gh/chengpeiquan/assets-storage/img/2021/11/20220110155037.gif)
+![create-preset](/assets/img/create-preset-preview.gif)
 
 </Home>
 
