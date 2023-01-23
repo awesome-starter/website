@@ -13,7 +13,7 @@ export const nav: Record<Locales, DefaultTheme.NavItem[]> = {
     },
     {
       text: 'Docs',
-      link: '/docs/create',
+      link: '/docs/basic-usage',
       activeMatch: '/docs/',
     },
     {
@@ -33,7 +33,7 @@ export const nav: Record<Locales, DefaultTheme.NavItem[]> = {
     },
     {
       text: '文档',
-      link: '/zh/docs/create',
+      link: '/zh/docs/basic-usage',
       activeMatch: '/zh/docs/',
     },
     {
