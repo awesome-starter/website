@@ -35,6 +35,6 @@ preset init hello-vue --template vue3-ts-vite
 
 Preset CLI supports getting the latest technology stack list and starter template list without updating the version, because they are obtained through configuration files.
 
-The configuration files are hosted in [config](https://github.com/awesome-starter/website/tree/main/src/public/config) folder.
+The configuration files are hosted in [config](https://github.com/awesome-starter/website/tree/main/docs/public/config) folder.
 
 Therefore, after executing the `init` command, a network request will be initiated to fetch the configuration file.
