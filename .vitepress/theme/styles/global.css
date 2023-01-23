@@ -1,5 +1,13 @@
 /* https://windicss.org/utilities/general/colors.html */
 
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 /* scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
