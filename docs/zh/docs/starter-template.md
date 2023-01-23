@@ -6,11 +6,11 @@
 
 模板归类为三种来源：官方维护、开源社区、本地配置。
 
-|   来源   | 说明                               |  颜色  |                                                  查看                                                   |
-| :------: | :--------------------------------- | :----: | :-----------------------------------------------------------------------------------------------------: |
+|   来源   | 说明                               |  颜色  |                                                   查看                                                   |
+| :------: | :--------------------------------- | :----: | :------------------------------------------------------------------------------------------------------: |
 | 官方维护 | 由 Awesome Starter 官方团队维护    |  黄色  |  [official.json](https://github.com/awesome-starter/website/blob/main/docs/public/config/official.json)  |
 | 开源社区 | 从 GitHub 等开源社区发现的优秀模板 |  白色  | [community.json](https://github.com/awesome-starter/website/blob/main/docs/public/config/community.json) |
-| 本地配置 | 您存储在计算机本地的一个配置文件   | 青蓝色 |                                              [配置](#配置)                                              |
+| 本地配置 | 您存储在计算机本地的一个配置文件   | 青蓝色 |                                 [本地配置文件](./local-configuration.md)                                 |
 
 ## 添加模板的规则 {#rules-for-adding-templates}
 
@@ -29,12 +29,12 @@
 
 JSON 字段说明：
 
-| 字段 |  类型  | 说明                                                                                                                       |
-| :--: | :----: | :------------------------------------------------------------------------------------------------------------------------- |
+| 字段 |  类型  | 说明                                                                                                                        |
+| :--: | :----: | :-------------------------------------------------------------------------------------------------------------------------- |
 | tech | string | 技术栈，请在 [这里](https://github.com/awesome-starter/website/blob/main/docs/public/config/tech.json) 查询合法的技术栈名称 |
-| name | string | 模板的名称，请省略 `template` 或者 `starter` 这样的词，只写基本名称                                                        |
-| desc | string | 模板的描述，一句话了解这个模板的特色                                                                                       |
-| repo | string | 模板 URL ，支持 `https` 和 `git@` 开头地址，详见下方的 [模板 URL 说明](#模板-url-说明)                                     |
+| name | string | 模板的名称，请省略 `template` 或者 `starter` 这样的词，只写基本名称                                                         |
+| desc | string | 模板的描述，一句话了解这个模板的特色                                                                                        |
+| repo | string | 模板 URL ，支持 `https` 和 `git@` 开头地址，详见下方的 [模板 URL 说明](#template-url-description)                           |
 
 :::tip 提示
 由于 Awesome Starter 的宗旨是提供优秀的项目模板，所以仅接受 Starter Template 类的仓库收集，如果你打算向 [community.json](https://github.com/awesome-starter/website/blob/main/docs/public/config/community.json) 发起 PR 贡献，请留意这一点。

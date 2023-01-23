@@ -35,6 +35,6 @@ preset init hello-vue --template vue3-ts-vite
 
 Preset CLI 支持在不更新版本的情况下就获取到最新的技术栈列表和启动模板列表，因为它们是通过配置文件来获取的。
 
-配置文件托管在官网项目的 [config](https://github.com/awesome-starter/website/tree/main/src/public/config) 文件夹下。
+配置文件托管在官网项目的 [config](https://github.com/awesome-starter/website/tree/main/docs/public/config) 文件夹下。
 
 所以执行了 `init` 命令之后，会发起网络请求，获取配置文件。
