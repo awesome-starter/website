@@ -7,7 +7,7 @@ Welcome to Create Preset!
 The CLI for Awesome Starter, Provides the ability to quickly create preset projects.
 
 :::tip
-In addition to creating excellent templates provided by the official and open source communities, you are encouraged to use it as a tool for managing personal common project configurations, Visit [Manage local configuration](docs.md#manage-local-configuration) to learn more.
+In addition to creating excellent templates provided by the official and open source communities, you are encouraged to use it as a tool for managing personal common project configurations, Visit [Manage local configuration](../docs/local-configuration.md) to learn more.
 :::
 
 ![create-preset](/assets/img/create-preset-preview.gif)

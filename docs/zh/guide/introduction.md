@@ -7,7 +7,7 @@
 Awesome Starter 的 CLI 脚手架，提供快速创建预设项目的能力。
 
 :::tip 提示
-除了可以把官方和开源社区提供的优秀模板创建为您的项目之外，更鼓励您把它作为一个管理个人常用项目模板配置的工具，点击 [管理本地配置](docs.md#%E7%AE%A1%E7%90%86%E6%9C%AC%E5%9C%B0%E9%85%8D%E7%BD%AE) 了解更多。
+除了可以把官方和开源社区提供的优秀模板创建为您的项目之外，更鼓励您把它作为一个管理个人常用项目模板配置的工具，点击 [管理本地配置](../docs/local-configuration.md) 了解更多。
 :::
 
 ![create-preset](/assets/img/create-preset-preview.gif)
