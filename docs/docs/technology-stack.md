@@ -25,7 +25,7 @@ Since `v0.10.0`, If a technology stack is added, but no corresponding template c
 
 ## Add technology stack {#add-technology-stack}
 
-At present, the technology stack needs to be maintained through the [tech.json](https://github.com/awesome-starter/website/blob/main/src/public/config/tech.json) file on the official website.
+At present, the technology stack needs to be maintained through the [tech.json](https://github.com/awesome-starter/website/blob/main/docs/public/config/tech.json) file on the official website.
 
 If you need to add the missing stack, please add it to the file array in the following format.
 
