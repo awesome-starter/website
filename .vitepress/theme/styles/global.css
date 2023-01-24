@@ -28,6 +28,10 @@ body {
   background: #3c3c3c;
 }
 
+.VPNavBar .container .title {
+  word-break: normal;
+}
+
 .vp-doc img {
   @apply block rounded-xl mx-auto;
 }
