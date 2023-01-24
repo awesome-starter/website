@@ -1,8 +1,12 @@
 <template>
   <!-- Banner -->
   <div
-    class="flex flex-col justify-center items-center w-screen h-90 max-w-full bg-green-100 dark:bg-green-200"
+    class="flex flex-col justify-center items-center w-screen md:h-180 h-130 max-w-full bg-green-100 dark:bg-green-200"
   >
+    <div class="w-80 max-w-3/5 mx-auto mb-4">
+      <img src="/logo-compact.svg" alt="Create Preset Logo" />
+    </div>
+
     <h1 class="hero-name">{{ $t('home.name') }}</h1>
 
     <p class="text-2xl text-gray-500 text-center">
@@ -43,7 +47,7 @@
 
   <!-- Features -->
   <div
-    class="grid md:grid-cols-3 grid-cols-1 gap-4 md:w-screen-lg w-11/12 mx-auto my-12"
+    class="grid md:grid-cols-3 grid-cols-1 gap-4 md:w-screen-lg w-11/12 mx-auto md:my-12 my-4"
   >
     <div
       class="bg-light-600 dark:bg-neutral-800 rounded-xl p-4"

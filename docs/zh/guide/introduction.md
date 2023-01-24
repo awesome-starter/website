@@ -1,6 +1,8 @@
-# 介绍 {#introduction}
+# 项目介绍 {#introduction}
 
 欢迎来到 Create Preset！
+
+<Logo />
 
 ## 什么是 Create Preset? {#what-is-create-preset}
 
@@ -21,3 +23,7 @@ Awesome Starter 是一个关于项目启动模板的精选列表，通过 [Creat
 ## 兼容性说明 {#compatibility-note}
 
 一些预设项目需要 [Node.js](https://nodejs.org/en/) 版本 >=12.2.0（例如 Vite ）。 但是，某些模板需要更高的 Node.js 版本才能工作，如果您的包管理器发出警告，请升级。
+
+<script setup lang="ts">
+import Logo from '@theme/components/Logo.vue'  
+</script>

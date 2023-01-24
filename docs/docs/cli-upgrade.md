@@ -10,8 +10,8 @@ You can with `upgrade` (alias `u`) command to detect new version, and if a new v
 
 When a new version is detected, the command line will ask you if you need to upgrade:
 
-- Select "Y" will proceed to the process of installing the new version
-- Select "N" to exit the upgrade process
+- Select `Y` will proceed to the process of installing the new version
+- Select `N` to exit the upgrade process
 
 ```bash
 preset upgrade
