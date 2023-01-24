@@ -2,6 +2,8 @@
 
 Welcome to Create Preset!
 
+<Logo />
+
 ## What is Create Preset? {#what-is-create-preset}
 
 The CLI for Awesome Starter, Provides the ability to quickly create preset projects.
@@ -21,3 +23,7 @@ For a long time, there has been a lack of a tool to manage the configuration of 
 ## Compatibility Note {#compatibility-note}
 
 Some preset project requires [Node.js](https://nodejs.org/en/) version >=12.2.0 (e.g. Vite). However, some templates require a higher Node.js version to work, please upgrade if your package manager warns about it.
+
+<script setup lang="ts">
+import Logo from '@theme/components/Logo.vue'  
+</script>
