@@ -3,7 +3,7 @@
   <div
     class="flex flex-col justify-center items-center w-screen md:h-180 h-130 max-w-full bg-green-100 dark:bg-green-200"
   >
-    <div class="w-80 max-w-3/5 mx-auto mb-4">
+    <div class="w-80 md:min-h-58 min-h-40 max-w-3/5 mx-auto mb-4">
       <img src="/logo-compact.svg" alt="Create Preset Logo" />
     </div>
 
