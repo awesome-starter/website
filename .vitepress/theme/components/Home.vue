@@ -91,7 +91,7 @@
 <style scoped>
 .hero-name {
   @apply md:text-8xl text-4xl text-black font-bold select-none;
-  /* green-400, green-700, primary green-500 */
+  /* green-400, green-700 */
   background: -webkit-linear-gradient(120deg, #34d399 30%, #047857);
   -webkit-background-clip: text;
   background-clip: text;
@@ -99,13 +99,14 @@
 }
 
 .btn-started {
+  /* bgc green-500, hover green-600, border green-400, hover green-300 */
   @apply flex justify-center items-center flex-shrink-0 w-30 h-10 mx-auto
        !text-white rounded-3xl mt-8 cursor-pointer overflow-hidden
-       bg-green-500 hover:bg-green-600
-       dark:bg-green-600 dark:hover:bg-green-700
+       bg-#10b981 hover:bg-#059669
+       dark:bg-#10b981 dark:hover:bg-#059669
          box-border border-2 border-solid
-       border-green-400 hover:border-green-300
-       dark:border-green-500 dark:hover:border-green-400;
+       border-#34d399 hover:border-#6ee7b7
+       dark:border-#10b981 dark:hover:border-#34d399;
   transition: all 0.2s ease-in-out;
 }
 .btn-started.large {
