@@ -34,7 +34,7 @@ export const sidebar: Record<Locales, DefaultTheme.Sidebar> = {
       text: 'Guide',
       items: [
         { text: '项目介绍', link: '/zh/guide/introduction' },
-        { text: '快速上手', link: '/zh/guide/getting-started' },
+        { text: '起步指南', link: '/zh/guide/getting-started' },
       ],
     },
     {
