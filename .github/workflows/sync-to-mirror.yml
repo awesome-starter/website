@@ -1,0 +1,18 @@
+name: sync-to-mirror
+
+on:
+  push:
+  pull_request:
+    branches: [master, main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync to Gitee
+        uses: wearerequired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_SSH_PRIVATE_KEY }}
+        with:
+          source-repo: https://github.com/awesome-starter/website.git
+          destination-repo: git@gitee.com:awesome-starter/website.git
