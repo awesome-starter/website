@@ -4,7 +4,7 @@
     "name": "vue3-ts-vite",
     "desc": "A template for Vue 3.0 with TypeScript, base on Vite.",
     "repo": "https://github.com/awesome-starter/vue3-ts-vite-starter",
-    "mirror": "https://gitee.com/awesome-starter/vue3-ts-vite-starter"
+    "mirror": "git@gitee.com:awesome-starter/vue3-ts-vite-starter.git"
   },
   {
     "tech": "node",
