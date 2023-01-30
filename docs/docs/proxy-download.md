@@ -1,9 +1,7 @@
 # Proxy Download {#proxy-download}
 
-:::warning
-Sorry, this feature is temporarily unavailable due to lack of available mirror proxy services.
-
-If your download speed is really slow, try turning on a VPN service locally.
+:::tip
+Updated [new proxy download logic](https://github.com/awesome-starter/create-preset/commit/e4ba085bdda8d4c9d957d94e61e3b400b090159a) in `v0.13.0`, documentation coming soon.
 :::
 
 For the slow download problem in some areas, we provide the mirror proxy to speed up the download. You can use the `proxy` (alias `p`) command to turn on/off of the proxy . This command needs to be used in conjunction with subcommands.
