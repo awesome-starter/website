@@ -29,12 +29,13 @@ Each template currently specifies the following format:
 
 JSON field description:
 
-| Field |  Type  | Description                                                                                                                                          |
-| :---: | :----: | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
-| tech  | string | Technology stack, please check [here](https://github.com/awesome-starter/website/blob/main/docs/public/config/tech.json) for legal tech stack names. |
-| name  | string | Name of the template, please omit words like `template` or `starter`, just write the base name.                                                      |
-| desc  | string | Description of the template, one sentence to understand the characteristics of this template.                                                        |
-| repo  | string | Template repository URL, supports `https` and `git@` starting addresses, see the following [Template URL description](#template-url-description)     |
+| Field  |  Type  | Description                                                                                                                                                  |
+| :----: | :----: | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  tech  | string | Technology stack, please check [here](https://github.com/awesome-starter/website/blob/main/docs/public/config/tech.json) for legal tech stack names.         |
+|  name  | string | Name of the template, please omit words like `template` or `starter`, just write the base name.                                                              |
+|  desc  | string | Description of the template, one sentence to understand the characteristics of this template.                                                                |
+|  repo  | string | Template repository URL, supports `https` and `git@` starting addresses, see the following [Template URL description](#template-url-description)             |
+| mirror | string | Optional, the URL of the mirror warehouse, fill in the same format as the `repo` field, see the description of [Proxy Download](proxy-download.md) for usage |
 
 :::tip
 Since the purpose of Awesome Starter is to provide excellent project templates, it only accepts repository collections of the Starter Template class. If you plan to make PR contributions to [community.json](https://github.com/awesome-starter/website/blob/main/docs/public/config/community.json), please pay attention to this.
@@ -75,7 +76,7 @@ If you configure your SSH Key correctly, you can download the template via SSH, 
 git@github.com: awesome-starter/create-preset.git
 ```
 
-You can visit [Working with SSH key passphrases](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases) to learn how to configure SSH Key.
+You can visit [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) to learn how to configure SSH Key.
 
 :::tip
 The provision of this method is mainly used to manage private repositories in the local configuration.

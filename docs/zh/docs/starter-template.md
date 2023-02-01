@@ -29,12 +29,13 @@
 
 JSON 字段说明：
 
-| 字段 |  类型  | 说明                                                                                                                        |
-| :--: | :----: | :-------------------------------------------------------------------------------------------------------------------------- |
-| tech | string | 技术栈，请在 [这里](https://github.com/awesome-starter/website/blob/main/docs/public/config/tech.json) 查询合法的技术栈名称 |
-| name | string | 模板的名称，请省略 `template` 或者 `starter` 这样的词，只写基本名称                                                         |
-| desc | string | 模板的描述，一句话了解这个模板的特色                                                                                        |
-| repo | string | 模板 URL ，支持 `https` 和 `git@` 开头地址，详见下方的 [模板 URL 说明](#template-url-description)                           |
+|  字段  |  类型  | 说明                                                                                                                        |
+| :----: | :----: | :-------------------------------------------------------------------------------------------------------------------------- |
+|  tech  | string | 技术栈，请在 [这里](https://github.com/awesome-starter/website/blob/main/docs/public/config/tech.json) 查询合法的技术栈名称 |
+|  name  | string | 模板的名称，请省略 `template` 或者 `starter` 这样的词，只写基本名称                                                         |
+|  desc  | string | 模板的描述，一句话了解这个模板的特色                                                                                        |
+|  repo  | string | 模板 URL ，支持 `https` 和 `git@` 开头地址，详见下方的 [模板 URL 说明](#template-url-description)                           |
+| mirror | string | 可选，镜像仓库的 URL ，填写格式同 `repo` 字段，用途见 [代理下载](proxy-download.md) 的说明                                  |
 
 :::tip 提示
 由于 Awesome Starter 的宗旨是提供优秀的项目模板，所以仅接受 Starter Template 类的仓库收集，如果你打算向 [community.json](https://github.com/awesome-starter/website/blob/main/docs/public/config/community.json) 发起 PR 贡献，请留意这一点。
