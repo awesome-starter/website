@@ -10,7 +10,8 @@
     "tech": "node",
     "name": "node-basic",
     "desc": "A basic Node.js project template.",
-    "repo": "https://github.com/awesome-starter/node-basic-starter"
+    "repo": "https://github.com/awesome-starter/node-basic-starter",
+    "mirror": "https://gitee.com/awesome-starter/node-basic-starter"
   },
   {
     "tech": "node",
@@ -22,7 +23,8 @@
     "tech": "node",
     "name": "node-program-pkg",
     "desc": "A program template for Node.js project, use pkg to packaged.",
-    "repo": "https://github.com/awesome-starter/node-pkg-starter"
+    "repo": "https://github.com/awesome-starter/node-pkg-starter",
+    "mirror": "https://gitee.com/awesome-starter/node-pkg-starter"
   },
   {
     "tech": "electron",
