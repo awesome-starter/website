@@ -1,9 +1,9 @@
 import { watch } from 'vue'
 import { inBrowser, useData } from 'vitepress'
-import DefaultTheme from 'vitepress/theme'
+import defaultTheme from 'vitepress/theme'
 import { createI18n } from 'vue-i18n'
+import { createVitePressBaiduAnalytics } from '@web-analytics/vue'
 import { messages } from './locales'
-import { siteIds, registerAnalytics, trackPageview } from './plugins/analytics'
 import { redirect } from './plugins/redirect'
 import 'uno.css'
 import './styles/global.css'
@@ -15,23 +15,35 @@ const i18n = createI18n({
   messages,
 })
 
+const { baiduAnalytics, registerBaiduAnalytics } =
+  createVitePressBaiduAnalytics()
+
 const theme: Theme = {
-  ...DefaultTheme,
+  ...defaultTheme,
   enhanceApp({ app, router }) {
     app.use(i18n)
 
     if (inBrowser) {
       redirect()
 
-      siteIds.forEach((id) => registerAnalytics(id))
+      registerBaiduAnalytics(app, {
+        websiteIds: [
+          '8dca8e2532df48ea7f1b15c714588691', // Main site
+          'c95969b938687c2ce025200e69df3707', // This site
+        ],
+        debug: true,
+      })
 
       window.addEventListener('hashchange', () => {
-        const { href: url } = window.location
-        siteIds.forEach((id) => trackPageview(id, url))
+        baiduAnalytics.trackPageview({
+          pageUrl: window.location.href,
+        })
       })
 
       router.onAfterRouteChanged = (to) => {
-        siteIds.forEach((id) => trackPageview(id, to))
+        baiduAnalytics.trackPageview({
+          pageUrl: to,
+        })
       }
     }
   },

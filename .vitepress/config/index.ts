@@ -19,7 +19,7 @@ export default defineConfig({
   title: 'Creare Preset',
   description: 'Provides the ability to quickly create preset projects.',
   head,
-  cleanUrls: 'without-subfolders',
+  cleanUrls: true,
   locales: {
     root: {
       label: 'English',
