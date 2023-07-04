@@ -31,7 +31,6 @@ const theme: Theme = {
           '8dca8e2532df48ea7f1b15c714588691', // Main site
           'c95969b938687c2ce025200e69df3707', // This site
         ],
-        debug: true,
       })
 
       window.addEventListener('hashchange', () => {
