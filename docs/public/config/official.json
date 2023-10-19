@@ -27,18 +27,6 @@
     "mirror": "https://gitee.com/awesome-starter/node-pkg-starter"
   },
   {
-    "tech": "electron",
-    "name": "electron-vue3-ts",
-    "desc": "An electron template with Vue 3.0 and TypeScript for client project.",
-    "repo": "https://github.com/awesome-starter/electron-vue3-ts-starter"
-  },
-  {
-    "tech": "rollup",
-    "name": "rollup-library-ts",
-    "desc": "A template for JS Library with TypeScript, base on Rollup.",
-    "repo": "https://github.com/awesome-starter/rollup-library-ts-starter"
-  },
-  {
     "tech": "vue",
     "name": "vue3-vite-prerender",
     "desc": "A prerender starter for Vue 3 base on Vite.",
