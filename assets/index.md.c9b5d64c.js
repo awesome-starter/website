@@ -1,0 +1,9 @@
+/**
+ * name: website
+ * version: v0.0.0
+ * description: Provides the ability to quickly create preset projects.
+ * author: chengpeiquan
+ * homepage: https://preset.js.org/
+ */
+import{_ as t}from"./chunks/logo-compact.ded6574a.js";import{H as s}from"./chunks/Home.3f0c4612.js";import{d as o,c as l,J as r,w as n,o as i,k as e,a}from"./chunks/framework.6508935e.js";const c=e("h2",{id:"simply-usage",tabindex:"-1"},[a("Simply Usage "),e("a",{class:"header-anchor",href:"#simply-usage","aria-label":'Permalink to "Simply Usage"'},"​")],-1),p=e("p",null,"You can simply experience it through the command of the package manager, and directly create the template you need by create preset.",-1),d=e("div",{class:"language-bash"},[e("button",{title:"Copy Code",class:"copy"}),e("span",{class:"lang"},"bash"),e("pre",{class:"shiki material-theme-palenight"},[e("code",null,[e("span",{class:"line"},[e("span",{style:{color:"#676E95","font-style":"italic"}},"# You can also use `yarn` or `pnpm`")]),a(`
+`),e("span",{class:"line"},[e("span",{style:{color:"#FFCB6B"}},"npm"),e("span",{style:{color:"#A6ACCD"}}," "),e("span",{style:{color:"#C3E88D"}},"create"),e("span",{style:{color:"#A6ACCD"}}," "),e("span",{style:{color:"#C3E88D"}},"preset")])])])],-1),m=e("p",null,"Then follow the prompts!",-1),h=e("h2",{id:"features-preview",tabindex:"-1"},[a("Features Preview "),e("a",{class:"header-anchor",href:"#features-preview","aria-label":'Permalink to "Features Preview"'},"​")],-1),_=e("p",null,[e("img",{src:t,alt:"create-preset"})],-1),k=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"home"},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),u={name:"index.md"},v=o({...u,setup(y){return(f,g)=>(i(),l("div",null,[r(s,null,{default:n(()=>[c,p,d,m,h,_]),_:1})]))}});export{k as __pageData,v as default};
